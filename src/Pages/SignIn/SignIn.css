@@ -1,0 +1,75 @@
+.signin-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Left Section */
+  .left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    background-color: #f9f9f9;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  .signin-form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+  }
+  
+  /* Right Section */
+  .right-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .right-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .forget-password-link {
+    color: var(--primary-color); /* Replace with your CSS variable or color */
+    text-decoration: none;
+    transition: text-decoration 0.2s ease-in-out; /* Smooth effect (optional) */
+  }
+  
+  .forget-password-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .signin-container {
+      flex-direction: column;
+    }
+  
+    .right-section {
+      display: none;
+    }
+  
+    .left-section {
+      flex: unset;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  

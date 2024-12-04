@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #635bff; /* Primary color (Vibrant Blue) */
+  --primary-gradient: linear-gradient(90deg, #BB86FC, #3700B3); /* Gradient with shades of purple */
+  --secondary-color: #ff4081; /* Secondary color (Vibrant Pink) */
+  --accent-color-1: #ffb74d; /* Accent color 1 (Warm Orange) */
+  --accent-color-2: #66bb6a; /* Accent color 2 (Fresh Green) */
+  --background-color: #f5f5f5; /* Light background color */
+  --sidebar-bg-color: #121621; /* Dark sidebar background */
+  --sidebar-bg-gradient: linear-gradient(135deg, #121621,#121352); /* Dark sidebar background */
+  --paper-color: #ffffff; /* Paper/Content background */
+  --text-primary-color: #333333; /* Main text color (Dark Grey) */
+  --text-secondary-color: #757575; /* Secondary text color (Light Grey) */
+  --button-text-transform: none; /* No text transformation on buttons */
+  --error-color: #f44336; /* Error color (Red) */
+  --button-hover-color: #4e4abf; /* Button hover color (Darker shade of primary) */
+  --primary-light-color:#e2e0fc;
+}
+
+* {
+  font-family: "Inter", sans-serif !important;
+  /* color: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 0px; */
+}
